@@ -125,6 +125,6 @@ hr{
     color: white;
 }
 
-.footer .social-links{
-    text-align: center;
+.footer ul{
+    padding-inline-start: 0px;
 }
