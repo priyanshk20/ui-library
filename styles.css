@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0px;
 }
 
 hr{
@@ -76,4 +77,54 @@ hr{
     color: white;
 }
 
+/* header  */
 
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-image{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding: 0.5rem 0 0 0;
+    font-size: 2rem;
+    color: gray;
+    text-align: center;
+}
+
+
+/* sections  */
+
+.section{
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.section-off-white{
+    background-color: rgb(226, 226, 226);
+}
+
+
+/* footer  */
+
+.footer{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: white;
+}
+
+.footer .social-links{
+    text-align: center;
+}

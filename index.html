@@ -14,6 +14,7 @@
     <hr>
 
     <h2>@Typography</h2>
+    <h1>Using <span style="color:#6C63FF;">Poppins</span> Font</h1>
     <h1>This is the biggest heading</h1>
     <h2>This is the second biggest heading</h2>
     <small>This is small</small>
@@ -79,33 +80,38 @@
     <hr>
 
     <h2>@Header</h2>
-    <header>
-        <img src="images/hero.svg" alt="heroimg">
-        <h1>Heading for Hero Image</h1>
+    <header class="hero">
+        <img src="images/hero.svg" class="hero-image" alt="heroimg">
+        <h1 class="hero-heading"><span style="color: #6C63FF;">Heading</span> for Hero Image</h1>
     </header>
 
     <hr>
     <h2>@Section</h2>
-    <section>
-        <h3>White Section</h3>
-        <p>This will have white background</p>
+    <section class="section">
+        <div class="container container-center">
+            <h1>White Section</h1>
+        <p>This will have white background and Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et reiciendis veritatis sed, saepe odit laborum?</p>
+
+        </div>
     </section>
 
-    <section>
-        <h3>Off White section</h3>
-        <p>This will have off white background</p>
+    <section class="section section-off-white">
+        <div class="container container-center">
+            <h1>Off White section</h1>
+            <p>This will have off white background and Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, et. Aut nisi voluptatem saepe sed!</p>
+        </div> 
     </section>
 
     <hr>
 
     <h2>@Footer</h2>
 
-    <footer>
-        <div>This is a small text inside footer</div>
-        <ul>
-            <li><a href="#">Social Links</a></li>
-            <li><a href="#">Social Links</a></li>
-            <li><a href="#">Social Links</a></li>
+    <footer class="footer">
+        <div class="footer-header">This is a small text inside footer</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="#">Social Links</a></li>
+            <li class="list-item-inline"><a class="link" href="#">Social Links</a></li>
+            <li class="list-item-inline"><a class="link" href="#">Social Links</a></li>
         </ul>
     </footer>
 
